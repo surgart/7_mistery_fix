@@ -6,7 +6,7 @@ a, b, c - являются аргументами функции get_roots(a, b,
 
 # Как использовать
 
-Пример кода для уравнения ```math x^2 + 2x - 3```:
+Пример кода для уравнения x^2 + 2x - 3:
 ```python
  from quadratic_equation import get_roots
 
