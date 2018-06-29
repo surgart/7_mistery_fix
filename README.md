@@ -7,14 +7,13 @@
  ax^2 + bx + c - квадратичное уравнение
  a, b, c - являются аргументами функции get_roots(a, b, c)
 
-Пример кода:
- # Дано уравнение x^2 + 2x - 3:
-
+Пример кода для уравнения x^2 + 2x - 3:
+```python
  from quadratic_equation import get_roots
 
  root1, root2 = get_roots(1, 2, -3)
  print("root1 = {0}, root2 = {1}".format(root1, root2))
-
+```
 # Как запустить
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
