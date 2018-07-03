@@ -1,19 +1,21 @@
 # Решатель квадратных уравнений
 
-Модуль quadratic_equation решает квадратные уравнения.
+Модуль quadratic_equation предназначен для решения квадратных уравнений.
+Дано `ax² + bx + c` - квадратичное уравнение, тогда
+`a, b, c` будут аргументами для функции `get_roots(a, b, c)`, которая вернёт два корня уравнения.
 
 # Как использовать
 
- ax^2 + bx + c - квадратичное уравнение
- a, b, c - являются аргументами функции get_roots(a, b, c)
+#### Пример кода:
 
-Пример кода:
- # Дано уравнение x^2 + 2x - 3:
+Дано уравнение `x² + 2x - 3`:
 
- from quadratic_equation import get_roots
+```python
+from quadratic_equation import get_roots
 
- root1, root2 = get_roots(1, 2, -3)
- print("root1 = {0}, root2 = {1}".format(root1, root2))
+root1, root2 = get_roots(1, 2, -3)
+print("root1 = {0}, root2 = {1}".format(root1, root2))
+```
 
 # Как запустить
 
